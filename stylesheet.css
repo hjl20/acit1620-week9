@@ -6,11 +6,18 @@ body {
 nav {
     display: flex;
     justify-content: space-evenly;
-    border: solid chocolate 5px;
+    border: solid chocolate 2px;
 }
 
 @media screen and (min-width: 600px) {
-    
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    body {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+    }
 }
 
 /* 
