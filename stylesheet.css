@@ -1,5 +1,20 @@
 
 body {
+    background-color: antiquewhite;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid chocolate 5px;
+}
+
+@media screen and (min-width: 600px) {
+    
+}
+
+/* 
+body {
     background-color: blue;
 }
 
@@ -13,4 +28,4 @@ body {
     body {
         background-color: green;
     }
-}
+} */
